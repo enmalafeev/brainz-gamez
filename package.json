@@ -17,7 +17,10 @@
     "type": "git",
     "url": "git+https://github.com/enmalafeev/project-lvl1-s352.git"
   },
-  "keywords": [],
+  "keywords": [
+    "brain-games",
+    "brainz-gamez"
+  ],
   "author": "Evgeny Malafeev",
   "license": "ISC",
   "bugs": {
