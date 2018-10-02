@@ -2,7 +2,6 @@
   "name": "brainz-gamez",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
