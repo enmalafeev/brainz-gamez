@@ -44,4 +44,4 @@ const brainEven = (AttemptCount) => {
   console.log(`Congratulations, ${userName}`);
 };
 
-export default brainEven;
+export { mainLogic, brainEven };
