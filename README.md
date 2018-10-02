@@ -1,6 +1,6 @@
 # project-lvl1-s352
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f6323a222c8b5c618d53/maintainability)](https://codeclimate.com/github/enmalafeev/project-lvl1-s352/maintainability)
 
 [![Build Status](https://travis-ci.com/enmalafeev/project-lvl1-s352.svg?branch=master)](https://travis-ci.com/enmalafeev/project-lvl1-s352)
 
