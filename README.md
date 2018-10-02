@@ -12,3 +12,6 @@ This is a set of mini-games launched from the console.
 ```sh
 $ make install
 ```
+## Install and run
+
+[![asciicast](https://asciinema.org/a/T2gcLEDDNAfmbZMxs7MvvmF7O.png)](https://asciinema.org/a/T2gcLEDDNAfmbZMxs7MvvmF7O)
