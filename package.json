@@ -1,9 +1,10 @@
 {
   "name": "brainz-gamez",
   "version": "1.0.1",
-  "description": "",
+  "description": "This is a set of mini-games launched from the console",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
   },
   "files": [
     "dist"
