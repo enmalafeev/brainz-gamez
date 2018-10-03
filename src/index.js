@@ -24,7 +24,7 @@ const printQuestion = (message, question) => {
 
 const isEven = num => num % 2 === 0;
 
-const checkIsEven = num => (isEven(num) === true ? 'yes' : 'no');
+const checkIsEven = num => (isEven(num) ? 'yes' : 'no');
 
 const generateRandomNum = (min, max) => Math.floor(Math.random() * (max - min) + min);
 
