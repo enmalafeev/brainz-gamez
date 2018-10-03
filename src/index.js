@@ -36,14 +36,14 @@ const brainEven = (AttemptCount) => {
   for (let counter = 0; counter < AttemptCount; counter += 1) {
     const minNumber = 1;
     const maxNumber = 100;
-    const randomNum = generateRandomNum(minNumber, maxNumber);
-    printQuestion('Question', randomNum);
+    const gameQuestion = generateRandomNum(minNumber, maxNumber);
+    printQuestion('Question', gameQuestion);
     const answer = readlineSync.question('Your answer: ');
-    const rightAnswer = checkIsEven(randomNum);
+    const rightAnswer = checkIsEven(gameQuestion);
     if (answer === rightAnswer) {
       printMessage('Correct!');
     }
-    if (answer !== checkIsEven(randomNum)) {
+    if (answer !== checkIsEven(gameQuestion)) {
       printMessage(`"${answer}" is wrong answer ;(. Correct answer was "${rightAnswer}".`);
       printMessage(`Let's try again, ${userName}!`);
       return;
