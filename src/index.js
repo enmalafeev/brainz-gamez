@@ -28,7 +28,8 @@ const checkIsEven = num => (isEven(num) ? 'yes' : 'no');
 
 const generateRandomNum = (min, max) => Math.floor(Math.random() * (max - min) + min);
 
-const brainEven = (AttemptCount) => {
+const brainEven = () => {
+  const AttemptCount = 3;
   welcome();
   printMessage('Answer "yes" if number even otherwise answer "no".');
   const userName = readlineSync.question('May I have your name? ');
