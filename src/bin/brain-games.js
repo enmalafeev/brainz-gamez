@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import mainLogic from '..';
+import { mainLogic } from '..';
 
 mainLogic();
