@@ -1,7 +1,17 @@
 import readlineSync from 'readline-sync';
-import welcome from './welcome';
-import askUserName from './askUserName';
-import printMessage from './printMessage';
+
+const welcome = () => {
+  console.log('Welcome to the Brain Games!');
+};
+
+const askUserName = () => {
+  const userName = readlineSync.question('May I have your name? ');
+  console.log(`Hello ${userName}!`);
+};
+
+const printMessage = (message) => {
+  console.log(message);
+};
 
 const mainLogic = () => {
   welcome();
