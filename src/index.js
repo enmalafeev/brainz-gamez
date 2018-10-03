@@ -33,8 +33,7 @@ const brainEven = (AttemptCount) => {
   printMessage('Answer "yes" if number even otherwise answer "no".');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello ${userName}!`);
-  let counter = 0;
-  while (counter < AttemptCount) {
+  for (let counter = 0; counter < AttemptCount; counter += 1) {
     const minNumber = 1;
     const maxNumber = 100;
     const randomNum = generateRandomNum(minNumber, maxNumber);
@@ -49,7 +48,6 @@ const brainEven = (AttemptCount) => {
       printMessage(`Let's try again, ${userName}!`);
       return;
     }
-    counter += 1;
   }
   console.log(`Congratulations, ${userName}`);
 };
