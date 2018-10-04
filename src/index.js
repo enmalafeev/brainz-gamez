@@ -9,11 +9,6 @@ export const printQuestion = (message, question) => {
   console.log(`${message}: ${question}`);
 };
 
-export const askUserName = () => {
-  const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello ${userName}!`);
-};
-
 export const generateRandomNum = (min, max) => Math.floor(Math.random() * (max - min) + min);
 
 const attemptCount = 3;
@@ -26,7 +21,7 @@ export const startGame = (greeting, question) => {
   for (let counter = 0; counter < attemptCount; counter += 1) {
     const getGameQuestion = question();
     const getQuestion = car(getGameQuestion);
-    console.log(getQuestion);
+    console.log(`Question: ${getQuestion}`);
     const userAnswer = readlineSync.question('Your answer: ');
     const getAnswer = cdr(getGameQuestion);
     if (userAnswer === getAnswer) {
