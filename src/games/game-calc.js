@@ -18,7 +18,7 @@ const generateQuestion = () => {
   const firstNum = generateRandomNum(minNumber, maxNumber);
   const secondNum = generateRandomNum(minNumber, maxNumber);
   const randomSign = generateRandomSign();
-  const question = () => `${firstNum} ${randomSign} ${secondNum}`;
+  const question = `${firstNum} ${randomSign} ${secondNum}`;
   const answer = () => {
     let answer;
     switch (randomSign) {
