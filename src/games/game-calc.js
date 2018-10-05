@@ -1,13 +1,12 @@
 import startGame from '..';
-import { generateRandomNum } from '../utils';
+import {
+  generateRandomNum, add, sub, mul,
+} from '../utils';
 import { cons } from 'hexlet-pairs';
 
 const description = 'What is the result of the expression?';
 const minNumber = 1;
 const maxNumber = 100;
-const add = (a, b) => a + b;
-const sub = (a, b) => a - b;
-const mul = (a, b) => a * b;
 const sign = ['+', '-', '*'];
 
 const generateRandomSign = () => {
