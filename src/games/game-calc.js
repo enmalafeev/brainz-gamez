@@ -16,32 +16,31 @@ const generateRandomSign = () => {
   return sign[numberRand];
 };
 
-const gameNumFirst = generateRandomNum(minNumber, maxNumber);
-const gameNumSecond = generateRandomNum(minNumber, maxNumber);
-const gameSign = generateRandomSign();
-
-const gameQuestion = () => `${gameNumFirst} ${gameSign} ${gameNumSecond}`;
-
-const gameAnswer = () => {
-  let answer;
-  switch (gameSign) {
-    case '+':
-      answer = add(gameNumFirst, gameNumSecond);
-      break;
-    case '-':
-      answer = sub(gameNumFirst, gameNumSecond);
-      break;
-    case '*':
-      answer = mul(gameNumFirst, gameNumSecond);
-      break;
-    default:
-      console.log('sign not defined');
-  }
-  return answer;
+const generateQuestion = () => {
+  const gameNumFirst = generateRandomNum(minNumber, maxNumber);
+  const gameNumSecond = generateRandomNum(minNumber, maxNumber);
+  const gameSign = generateRandomSign();
+  const gameQuestion = () => `${gameNumFirst} ${gameSign} ${gameNumSecond}`;
+  const gameAnswer = () => {
+    let answer;
+    switch (gameSign) {
+      case '+':
+        answer = add(gameNumFirst, gameNumSecond);
+        break;
+      case '-':
+        answer = sub(gameNumFirst, gameNumSecond);
+        break;
+      case '*':
+        answer = mul(gameNumFirst, gameNumSecond);
+        break;
+      default:
+        console.log('sign not defined');
+        break;
+    }
+    return String(answer);
+  };
+  return cons(gameQuestion(), gameAnswer());
 };
-
-
-const generateQuestion = () => cons(gameQuestion, gameAnswer);
 
 const brainCalc = () => {
   startGame(greeting, generateQuestion);
