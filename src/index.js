@@ -3,9 +3,9 @@ import { car, cdr } from 'hexlet-pairs';
 
 const attemptCount = 3;
 
-export const startGame = (greeting, question) => {
+const startGame = (description, question) => {
   console.log('Welcome to the Brain Games!');
-  console.log(greeting);
+  console.log(description);
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello ${userName}!`);
   for (let counter = 0; counter < attemptCount; counter += 1) {
@@ -25,3 +25,5 @@ export const startGame = (greeting, question) => {
   }
   console.log(`Congratulations, ${userName}`);
 };
+
+export default startGame;

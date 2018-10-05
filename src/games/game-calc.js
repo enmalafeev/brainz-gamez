@@ -1,4 +1,4 @@
-import { startGame } from '..';
+import startGame from '..';
 import generateRandomNum from '../utils';
 import { cons } from 'hexlet-pairs';
 

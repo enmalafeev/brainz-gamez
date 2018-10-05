@@ -1,6 +1,5 @@
-import {
-  generateRandomNum, startGame,
-} from '..';
+import startGame from '..';
+import generateRandomNum from '../utils';
 import { cons } from 'hexlet-pairs';
 
 const isEven = num => num % 2 === 0;
