@@ -1,11 +1,10 @@
 import readlineSync from 'readline-sync';
 import { car, cdr } from 'hexlet-pairs';
+import generateRandomNum from './utils';
 
 export const welcome = () => {
   console.log('Welcome to the Brain Games!');
 };
-
-export const generateRandomNum = (min, max) => Math.floor(Math.random() * (max - min) + min);
 
 const attemptCount = 3;
 
