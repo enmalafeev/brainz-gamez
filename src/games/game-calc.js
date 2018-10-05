@@ -19,26 +19,24 @@ const generateQuestion = () => {
   const secondNum = generateRandomNum(minNumber, maxNumber);
   const randomSign = generateRandomSign();
   const question = `${firstNum} ${randomSign} ${secondNum}`;
-  const answer = () => {
-    let answer;
-    switch (randomSign) {
-      case '+':
-        answer = firstNum + secondNum;
-        break;
-      case '-':
-        answer = firstNum - secondNum;
-        break;
-      case '*':
-        answer = firstNum * secondNum;
-        break;
-      default:
-        console.log('sign not defined');
-        break;
-    }
-    return String(answer);
-  };
-  return cons(question(), answer());
+  let answer;
+  switch (randomSign) {
+    case '+':
+      answer = firstNum + secondNum;
+      break;
+    case '-':
+      answer = firstNum - secondNum;
+      break;
+    case '*':
+      answer = firstNum * secondNum;
+      break;
+    default:
+      console.log('sign not defined');
+      break;
+  }
+  return cons(question, answer);
 };
+
 
 const brainCalc = () => {
   startGame(description, generateQuestion);
