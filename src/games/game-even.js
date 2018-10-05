@@ -11,9 +11,9 @@ const minNumber = 1;
 const maxNumber = 100;
 
 const generateQuestion = () => {
-  const gameQuestion = generateRandomNum(minNumber, maxNumber);
-  const gameAnswer = checkIsEven(gameQuestion);
-  return cons(gameQuestion, gameAnswer);
+  const question = generateRandomNum(minNumber, maxNumber);
+  const answer = checkIsEven(question);
+  return cons(question, answer);
 };
 
 const brainEven = () => {

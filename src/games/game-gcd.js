@@ -29,11 +29,11 @@ const gcd = (a, b) => {
 };
 
 const generateQuestion = () => {
-  const gameNumFirst = generateRandomNum(minNumber, maxNumber);
-  const gameNumSecond = generateRandomNum(minNumber, maxNumber);
-  const gameQuestion = () => `${gameNumFirst} ${gameNumSecond}`;
-  const gameAnswer = () => String(gcd(gameNumFirst, gameNumSecond));
-  return cons(gameQuestion(), gameAnswer());
+  const firstNum = generateRandomNum(minNumber, maxNumber);
+  const secondNum = generateRandomNum(minNumber, maxNumber);
+  const question = () => `${firstNum} ${secondNum}`;
+  const answer = () => String(gcd(firstNum, secondNum));
+  return cons(question(), answer());
 };
 
 const brainGcd = () => {
