@@ -5,10 +5,6 @@ export const welcome = () => {
   console.log('Welcome to the Brain Games!');
 };
 
-export const printQuestion = (message, question) => {
-  console.log(`${message}: ${question}`);
-};
-
 export const generateRandomNum = (min, max) => Math.floor(Math.random() * (max - min) + min);
 
 const attemptCount = 3;
