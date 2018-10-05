@@ -20,15 +20,15 @@ export const startGame = (greeting, question) => {
   console.log(`Hello ${userName}!`);
   for (let counter = 0; counter < attemptCount; counter += 1) {
     const getGameQuestion = question();
-    const getQuestion = car(getGameQuestion);
-    console.log(`Question: ${getQuestion}`);
+    const gameQuestion = car(getGameQuestion);
+    console.log(`Question: ${gameQuestion}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    const getAnswer = cdr(getGameQuestion);
-    if (userAnswer === getAnswer) {
+    const rightAnswer = cdr(getGameQuestion);
+    if (userAnswer === rightAnswer) {
       console.log('Correct!');
     }
-    if (userAnswer !== getAnswer) {
-      console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${getAnswer}".`);
+    if (userAnswer !== rightAnswer) {
+      console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${rightAnswer}".`);
       console.log(`Let's try again, ${userName}!`);
       return;
     }
