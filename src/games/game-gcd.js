@@ -23,9 +23,9 @@ const gcd = (a, b) => {
 const generateQuestion = () => {
   const firstNum = generateRandomNum(minNumber, maxNumber);
   const secondNum = generateRandomNum(minNumber, maxNumber);
-  const question = () => `${firstNum} ${secondNum}`;
-  const answer = () => String(gcd(firstNum, secondNum));
-  return cons(question(), answer());
+  const question = `${firstNum} ${secondNum}`;
+  const answer = String(gcd(firstNum, secondNum));
+  return cons(question, answer);
 };
 
 export default () => startGame(description, generateQuestion);
