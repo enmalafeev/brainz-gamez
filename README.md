@@ -15,3 +15,11 @@ $ make install
 ## Install and run
 
 [![asciicast](https://asciinema.org/a/T2gcLEDDNAfmbZMxs7MvvmF7O.png)](https://asciinema.org/a/T2gcLEDDNAfmbZMxs7MvvmF7O)
+
+## Brain-calc
+
+[![asciicast](https://asciinema.org/a/Oy7uTBSySFsPqSycxrGblUpqx.png)](https://asciinema.org/a/Oy7uTBSySFsPqSycxrGblUpqx)
+
+## Brain-gcd
+
+[![asciicast](https://asciinema.org/a/nzRjS4g3d0pYR45kRZCkUPGps.png)](https://asciinema.org/a/nzRjS4g3d0pYR45kRZCkUPGps)
