@@ -1,5 +1,5 @@
 import startGame from '..';
-import { generateRandomNum } from '../utils';
+import generateRandomNum from '../utils';
 import { cons } from 'hexlet-pairs';
 
 const isEven = num => num % 2 === 0;
@@ -16,8 +16,4 @@ const generateQuestion = () => {
   return cons(question, answer);
 };
 
-const brainEven = () => {
-  startGame(description, generateQuestion);
-};
-
-export default brainEven;
+export default () => startGame(description, generateQuestion);

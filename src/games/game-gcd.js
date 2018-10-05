@@ -1,7 +1,5 @@
 import startGame from '..';
-import {
-  generateRandomNum,
-} from '../utils';
+import generateRandomNum from '../utils';
 import {
   cons,
 } from 'hexlet-pairs';
@@ -36,8 +34,4 @@ const generateQuestion = () => {
   return cons(question(), answer());
 };
 
-const brainGcd = () => {
-  startGame(description, generateQuestion);
-};
-
-export default brainGcd;
+export default () => startGame(description, generateQuestion);

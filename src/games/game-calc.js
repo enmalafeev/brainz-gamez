@@ -1,12 +1,10 @@
 import startGame from '..';
-import {
-  generateRandomNum,
-} from '../utils';
+import generateRandomNum from '../utils';
 import { cons } from 'hexlet-pairs';
 
 const description = 'What is the result of the expression?';
 const minNumber = 1;
-const maxNumber = 100;
+const maxNumber = 50;
 const sign = ['+', '-', '*'];
 
 const generateRandomSign = () => {
@@ -34,12 +32,7 @@ const generateQuestion = () => {
       console.log('sign not defined');
       break;
   }
-  return cons(question, answer);
+  return cons(question, String(answer));
 };
 
-
-const brainCalc = () => {
-  startGame(description, generateQuestion);
-};
-
-export default brainCalc;
+export default () => startGame(description, generateQuestion);
