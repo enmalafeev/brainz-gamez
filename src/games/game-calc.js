@@ -1,6 +1,6 @@
 import startGame from '..';
 import {
-  generateRandomNum, add, sub, mul,
+  generateRandomNum,
 } from '../utils';
 import { cons } from 'hexlet-pairs';
 
@@ -23,13 +23,13 @@ const generateQuestion = () => {
     let answer;
     switch (randomSign) {
       case '+':
-        answer = add(firstNum, secondNum);
+        answer = firstNum + secondNum;
         break;
       case '-':
-        answer = sub(firstNum, secondNum);
+        answer = firstNum - secondNum;
         break;
       case '*':
-        answer = mul(firstNum, secondNum);
+        answer = firstNum * secondNum;
         break;
       default:
         console.log('sign not defined');
