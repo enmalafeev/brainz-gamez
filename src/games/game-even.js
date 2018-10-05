@@ -7,7 +7,7 @@ const isEven = num => num % 2 === 0;
 
 const checkIsEven = num => (isEven(num) ? 'yes' : 'no');
 
-const greeting = 'Answer "yes" if number even otherwise answer "no".';
+const description = 'Answer "yes" if number even otherwise answer "no".';
 const minNumber = 1;
 const maxNumber = 100;
 
@@ -18,7 +18,7 @@ const generateQuestion = () => {
 };
 
 const brainEven = () => {
-  startGame(greeting, generateQuestion);
+  startGame(description, generateQuestion);
 };
 
 export default brainEven;

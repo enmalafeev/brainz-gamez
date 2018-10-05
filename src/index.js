@@ -1,15 +1,10 @@
 import readlineSync from 'readline-sync';
 import { car, cdr } from 'hexlet-pairs';
-import generateRandomNum from './utils';
-
-export const welcome = () => {
-  console.log('Welcome to the Brain Games!');
-};
 
 const attemptCount = 3;
 
 export const startGame = (greeting, question) => {
-  welcome();
+  console.log('Welcome to the Brain Games!');
   console.log(greeting);
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello ${userName}!`);

@@ -2,7 +2,7 @@ import { startGame } from '..';
 import generateRandomNum from '../utils';
 import { cons } from 'hexlet-pairs';
 
-const greeting = 'What is the result of the expression?';
+const description = 'What is the result of the expression?';
 const minNumber = 1;
 const maxNumber = 100;
 const add = (a, b) => a + b;
@@ -42,7 +42,7 @@ const generateQuestion = () => {
 };
 
 const brainCalc = () => {
-  startGame(greeting, generateQuestion);
+  startGame(description, generateQuestion);
 };
 
 export default brainCalc;
