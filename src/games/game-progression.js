@@ -9,9 +9,9 @@ const minNumber = 1;
 const maxNumber = 10;
 const hiddenNum = 3;
 
-const generateProgression = (start, step, length) => {
+const generateProgression = (start, step, end) => {
   let progression = '';
-  for (let i = start; i <= length; i += step) {
+  for (let i = start; i <= end; i += step) {
     if (i === (start + (step * hiddenNum))) {
       progression += '.. ';
     } else {
@@ -24,8 +24,8 @@ const generateProgression = (start, step, length) => {
 const generateQuestion = () => {
   const start = generateRandomNum(minNumber, maxNumber);
   const step = generateRandomNum(minNumber, maxNumber);
-  const length = step * 10;
-  const question = generateProgression(start, step, length);
+  const end = 100;
+  const question = generateProgression(start, step, end);
   const answer = String(start + (step * hiddenNum));
   return cons(question, answer);
 };
