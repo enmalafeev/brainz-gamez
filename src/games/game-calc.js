@@ -5,11 +5,11 @@ import { cons } from 'hexlet-pairs';
 const description = 'What is the result of the expression?';
 const minNumber = 1;
 const maxNumber = 50;
-const sign = ['+', '-', '*'];
+const signs = ['+', '-', '*'];
 
 const generateRandomSign = () => {
-  const numberRand = Math.floor(Math.random() * sign.length);
-  return sign[numberRand];
+  const numberRand = Math.floor(Math.random() * signs.length);
+  return signs[numberRand];
 };
 
 const generateQuestion = () => {
