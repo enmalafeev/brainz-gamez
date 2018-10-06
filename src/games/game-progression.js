@@ -7,7 +7,7 @@ import {
 const description = 'What number is missing in this progression?';
 const minNumber = 1;
 const maxNumber = 10;
-const hiddenNum = 5;
+const hiddenNum = 3;
 
 const generateProgression = (start, step, length) => {
   let progression = '';
