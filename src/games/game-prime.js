@@ -10,18 +10,21 @@ const maxNumber = 500;
 
 const isPrime = (num) => {
   let res = 0;
-  for (let i = 1; i <= num; i += 1) {
+  const sqrtNum = Math.floor(Math.sqrt(num));
+  for (let i = 1; i <= sqrtNum; i += 1) {
     if (num % i === 0) {
       res += 1;
     }
   }
-  if (res === 2) return 'yes';
-  return 'no';
+  if (res === 1) return true;
+  return false;
 };
+
+const checkIsPrime = num => (isPrime(num) ? 'yes' : 'no');
 
 const generateQuestion = () => {
   const question = String(generateRandomNum(minNumber, maxNumber));
-  const answer = isPrime(question);
+  const answer = checkIsPrime(question);
   return cons(question, answer);
 };
 
