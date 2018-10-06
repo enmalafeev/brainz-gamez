@@ -27,3 +27,7 @@ $ make install
 ## Brain-progression
 
 [![asciicast](https://asciinema.org/a/SSZYI87FRjuZl1XIs78r9Lf0Q.png)](https://asciinema.org/a/SSZYI87FRjuZl1XIs78r9Lf0Q)
+
+## Brain-prime
+
+[![asciicast](https://asciinema.org/a/H523Ku4HRUOcLDY3gDKXlIgFl.png)](https://asciinema.org/a/H523Ku4HRUOcLDY3gDKXlIgFl)
