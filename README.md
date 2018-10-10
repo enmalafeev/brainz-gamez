@@ -2,7 +2,7 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/f6323a222c8b5c618d53/maintainability)](https://codeclimate.com/github/enmalafeev/project-lvl1-s352/maintainability)
 
-[![Build Status](https://travis-ci.com/enmalafeev/project-lvl1-s352.svg?branch=master)](https://travis-ci.com/enmalafeev/project-lvl1-s352)
+[![Build Status](https://travis-ci.com/enmalafeev/brainz-gamez.svg?branch=master)](https://travis-ci.com/enmalafeev/brainz-gamez)
 
 # Brain-games
 This is a set of mini-games launched from the console.
