@@ -1,4 +1,4 @@
-# project-lvl1-s352
+# brainz-gamez
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/f6323a222c8b5c618d53/maintainability)](https://codeclimate.com/github/enmalafeev/project-lvl1-s352/maintainability)
 
