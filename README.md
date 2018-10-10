@@ -1,6 +1,6 @@
 # brainz-gamez
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/f6323a222c8b5c618d53/maintainability)](https://codeclimate.com/github/enmalafeev/brainz-gamez/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/6f0c613469827e4008dc/maintainability)](https://codeclimate.com/github/enmalafeev/brainz-gamez/maintainability)
 
 [![Build Status](https://travis-ci.com/enmalafeev/brainz-gamez.svg?branch=master)](https://travis-ci.com/enmalafeev/brainz-gamez)
 
