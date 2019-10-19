@@ -14,20 +14,20 @@ $ make install
 ```
 ## Install and run
 
-[![asciicast](https://asciinema.org/a/T2gcLEDDNAfmbZMxs7MvvmF7O.png)](https://asciinema.org/a/T2gcLEDDNAfmbZMxs7MvvmF7O)
+[![asciicast](https://asciinema.org/a/275510.svg)](https://asciinema.org/a/275510)
 
 ## Brain-calc
 
-[![asciicast](https://asciinema.org/a/Oy7uTBSySFsPqSycxrGblUpqx.png)](https://asciinema.org/a/Oy7uTBSySFsPqSycxrGblUpqx)
+[![asciicast](https://asciinema.org/a/275511.svg)](https://asciinema.org/a/275511)
 
 ## Brain-gcd
 
-[![asciicast](https://asciinema.org/a/nzRjS4g3d0pYR45kRZCkUPGps.png)](https://asciinema.org/a/nzRjS4g3d0pYR45kRZCkUPGps)
+[![asciicast](https://asciinema.org/a/275513.svg)](https://asciinema.org/a/275513)
 
 ## Brain-progression
 
-[![asciicast](https://asciinema.org/a/SSZYI87FRjuZl1XIs78r9Lf0Q.png)](https://asciinema.org/a/SSZYI87FRjuZl1XIs78r9Lf0Q)
+[![asciicast](https://asciinema.org/a/275514.svg)](https://asciinema.org/a/275514)
 
 ## Brain-prime
 
-[![asciicast](https://asciinema.org/a/H523Ku4HRUOcLDY3gDKXlIgFl.png)](https://asciinema.org/a/H523Ku4HRUOcLDY3gDKXlIgFl)
+[![asciicast](https://asciinema.org/a/275515.svg)](https://asciinema.org/a/275515)
